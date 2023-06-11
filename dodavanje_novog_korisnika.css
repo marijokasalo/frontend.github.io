@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.zaglavlje {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+.logo {
+  margin-right: 15px;
+}
+.logo-text {
+  font-size: 24px;
+  color: #333;
+}
+
+form {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form input[type="text"], form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Registracija</title>
+    <link rel="stylesheet" href="dodavanje_novog_korisnika.css">
+</head>
+<body>
+  <div class="zaglavlje">
+    <div class="header">
+        <div class="logo">
+            <span class="logo-text">Cargoo</span>
+        </div>
+    </div>
+</div>
+
+<div class="registracija_box">
+  <h1>Registracija novog korisnika</h1>
+
+  <form id="registracija">
+      <label for="ime">Ime:</label><br>
+      <input type="text" id="ime" name="ime"><br>
+
+      <label for="prezime">Prezime:</label><br>
+      <input type="text" id="prezime" name="prezime"><br>
+
+      <label for="datum_rodenja">Datum rođenja:</label><br>
+      <input type="date" id="datum_rodenja" name="datum_rodenja"><br>
+
+      <label for="oib">OIB:</label><br>
+      <input type="text" id="oib" name="oib"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+
+      <label for="broj_telefona">Broj telefona:</label><br>
+      <input type="text" id="broj_telefona" name="broj_telefona"><br>
+
+      <label for="adresa">Adresa:</label><br>
+      <input type="text" id="adresa" name="adresa"><br>
+
+      <label for="vozacka">Kategorije vozacke dozvole:</label><br>
+      <input type="text" id="vozacka" name="vozacka"><br>
+
+      <label for="password">Odaberite lozinku:</label><br>
+      <input type="text" id="password" name="password"><br>
+
+      <button type="registriraj">Registracija</button>
+  </form>
+</div>
+  <script>
+      document.getElementById('registracija').addEventListener('registriraj', function(event) {
+          event.preventDefault();
+          
+          console.log("Registracija zaprimljena");
+      });
+  </script>
+    
+</body>
+</html>
