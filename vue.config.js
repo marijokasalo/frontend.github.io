@@ -6,8 +6,7 @@ module.exports = {
     });
   },
   devServer: {
-    disableHostCheck: true,
-    allowedHosts: ['frontend-cargoo.onrender.com'], 
-    port: 8080 
+    allowedHosts: 'all', 
   }
 }
+
