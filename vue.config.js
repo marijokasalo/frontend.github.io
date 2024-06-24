@@ -7,7 +7,7 @@ module.exports = {
   },
   devServer: {
     disableHostCheck: true,
-    public: 'frontend-cargoo.onrender.com', 
+    allowedHosts: ['frontend-cargoo.onrender.com'], 
     port: 8080 
   }
 }
