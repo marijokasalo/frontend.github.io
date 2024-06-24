@@ -4,5 +4,10 @@ module.exports = {
       definitions[0]['__VUE_PROD_HYDRATION_MISMATCH_DETAILS__'] = JSON.stringify(false);
       return definitions;
     });
+  },
+  devServer: {
+    disableHostCheck: true,
+    public: 'frontend-cargoo.onrender.com', 
+    port: 8080 
   }
 }
